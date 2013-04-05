@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Generate Beth - Demos</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  <script src="../scripts/normalizer.js"></script>
+  <script src="../scripts/generator.js"></script>
+  <script>
+    generator.run({
+      images: {
+        // Images used to calculate/create a normal map
+        left:   "../images/beth/left.png",
+        right:  "../images/beth/right.png",
+        front:  "../images/beth/front.png",
+        back:   "../images/beth/back.png",
+        top:    "../images/beth/top.png",
+        bottom: "../images/beth/bottom.png"
+      },
+      delay:1,
+      chunkWidth:64,
+      chunkHeight:64,
+      colorAdjust:false,
+      smoothNormals:true
+    });
+
+  </script>
+</head>
+<body>
+  <h1 id="status">Loading Lighting Images</h1>
+
+  <canvas id="diffuse" width="256" height="224"></canvas>
+  <canvas id="red" width="256" height="224"></canvas>
+  <canvas id="green" width="256" height="224"></canvas>
+  <canvas id="blue" width="256" height="224"></canvas>
+
+  <canvas id="left" width="256" height="224"></canvas>
+  <canvas id="right" width="256" height="224"></canvas>
+  <canvas id="front" width="256" height="224"></canvas>
+  <canvas id="back" width="256" height="224"></canvas>
+  <canvas id="top" width="256" height="224"></canvas>
+  <canvas id="bottom" width="256" height="224"></canvas>
+  <canvas id="normals" width="256" height="224"></canvas>
+</body>
+</html>

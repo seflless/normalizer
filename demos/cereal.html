@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Generate Francois - Demos</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  <script src="../scripts/normalizer.js"></script>
+  <script src="../scripts/generator.js"></script>
+  <script>
+    generator.run({
+      images: {
+        // Images used to calculate/create a normal map
+        left:   "../images/cereal/left.png",
+        right:  "../images/cereal/right.png",
+        front:  "../images/cereal/front.png",
+        back:   "../images/cereal/back.png",
+        top:    "../images/cereal/top.png",
+        bottom: "../images/cereal/bottom.png"
+      },
+      delay:1,
+      chunkWidth:64,
+      chunkHeight:64,
+      colorAdjust:true,
+      smoothNormals:true
+    });
+
+  </script>
+</head>
+<body>
+  <h1 id="status">Loading Lighting Images</h1>
+  <canvas id="diffuse" width="351" height="354"></canvas>
+  <canvas id="red" width="351" height="354"></canvas>
+  <canvas id="green" width="351" height="354"></canvas>
+  <canvas id="blue" width="351" height="354"></canvas>
+  
+  <canvas id="left" width="351" height="354"></canvas>
+  <canvas id="right" width="351" height="354"></canvas>
+  <canvas id="front" width="351" height="354"></canvas>
+  <canvas id="back" width="351" height="354"></canvas>
+  <canvas id="top" width="351" height="354"></canvas>
+  <canvas id="bottom" width="351" height="354"></canvas>
+  <canvas id="normals" width="351" height="354"></canvas>
+</body>
+</html>
