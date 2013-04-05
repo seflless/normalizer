@@ -1,3 +1,9 @@
+Overview
+=============
+
+This is the start of a project to make it easy for anyone to generate and render normal maps all using Javascript. Additionally I owe (still after 2+ years since I made the demos) a write up on how to us a camera to take photos that you can extract the normals of every day objects.
+
+
 Instructions
 =============
 
