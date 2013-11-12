@@ -21,4 +21,4 @@ To run the demos locally, you must host the files in this project. Otherwise you
         ./server
 
     
-  2. Now open [http://localhost:8080/](http://localhost:8080/) in your browser and select a demo.
+  2. Now open [http://localhost:8080/](http://localhost:8080/) and select a demo.
