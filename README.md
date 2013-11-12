@@ -5,9 +5,8 @@ This is the start of a project to make it easy for anyone to generate and render
 
 # Live Demos
 
-  - [Real time rendering](http://francoislaberge.com/labs/normal_mapping/me/) (Personal website demos)
   - [Generating Normal Maps](http://francoislaberge.github.io/normalizer/) (Available in source)
-  
+  - [Real time rendering](http://francoislaberge.com/labs/normal_mapping/me/) (Personal website demos)
 
 # Running demos locally
 
