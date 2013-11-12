@@ -1,17 +1,15 @@
-Overview
-=============
+# Overview
 
-This is the start of a project to make it easy for anyone to generate and render normal maps all using Javascript. Additionally I owe (still after 2+ years since I made the demos) a write up on how to us a camera to take photos that you can extract the normals of every day objects.
+This is the start of a project to make it easy for anyone to generate and render normal maps all using Javascript. 
 
-Demos
-==================
+
+# Live Demos
 
   - [Real time rendering](http://francoislaberge.com/labs/normal_mapping/me/)
   - [Generating Normal Maps](http://francoislaberge.github.io/normalizer/)
   
 
-Instructions
-=============
+# Running demos locally
 
 To run the demos locally, you must host the files in this project. Otherwise you'll get a security error because the demos require reading the pixels of loaded images which isn't allowed for HTML loaded on the file:/// protocol.
 
@@ -22,3 +20,8 @@ To run the demos locally, you must host the files in this project. Otherwise you
 
     
   2. Now open [http://localhost:8080/](http://localhost:8080/) and select a demo.
+
+# TODO: 
+
+  1. Port over and cleanup real time rendering code from the live demos.
+  2. Write up on how to us a camera to take photos that you can extract the normals of every day objects [(As seen in these demos)](http://francoislaberge.com/labs/normal_mapping/me/)
