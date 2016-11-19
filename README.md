@@ -24,3 +24,5 @@ To run the demos locally, you must host the files in this project. Otherwise you
 
   1. Port over and cleanup real time rendering code from the live demos.
   2. Write up on how to us a camera to take photos that you can extract the normals of every day objects [(As seen in these demos)](http://francoislaberge.com/labs/normal_mapping/me/)
+  3. Try doing the spherical harmonics version of this:
+    - https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=spherical%20harmonics
